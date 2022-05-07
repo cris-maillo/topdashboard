@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,7 +22,11 @@ body {
     color: #FFFFFF;
 }
 
-img[src="acc.svg"], img[src="accwhite.svg"] {
+.navleft, .navright{
+    padding-top: 10px;
+}
+
+img[src="acc.svg"], img[src="accwhite.svg"], img[src="search.svg"] {
     width: 100%;
     padding: 2px;
     box-sizing: border-box;

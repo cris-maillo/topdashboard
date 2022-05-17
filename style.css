@@ -114,7 +114,15 @@ button {
 .intro{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 20px;
+}
+
+.intro-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .logo{
@@ -122,6 +130,26 @@ button {
     height: 50px;
 }
 
+#bigprofile{
+    height: 75px;
+}
+
 .arena{
     background-color: rgb(236, 240, 242);
+    display: grid;
+    grid-template: 1fr / 3fr 1fr;
+    padding: 20px;
 }
+
+.ann-container{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+hr {
+    border-top: 2px solid #bbb;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }

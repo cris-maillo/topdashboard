@@ -16,15 +16,13 @@ body {
 }
 
 
-
 .navleft{
     background-color: rgb(68, 146, 255);
     color: #FFFFFF;
+    padding: 10px;
 }
 
-.navleft, .navright{
-    padding-top: 10px;
-}
+
 
 img[src="acc.svg"], img[src="accwhite.svg"], img[src="search.svg"] {
     width: 100%;
@@ -44,7 +42,7 @@ img[src="acc.svg"], img[src="accwhite.svg"], img[src="search.svg"] {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 .searching{
@@ -88,14 +86,21 @@ button {
     background-color: rgb(68, 146, 255);
     color: #FFFFFF;
     border: none;
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 25px;
+}
+
+.navprojects{
+    display: flex;
+    gap: 20px;
 }
 
 .header{
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .nav-bar-links, .nav-bar-settings{
@@ -109,4 +114,14 @@ button {
 .intro{
     display: flex;
     justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo{
+    display: flex;
+    height: 50px;
+}
+
+.arena{
+    background-color: rgb(236, 240, 242);
 }

@@ -138,18 +138,78 @@ button {
     background-color: rgb(236, 240, 242);
     display: grid;
     grid-template: 1fr / 3fr 1fr;
-    padding: 20px;
+    padding: 30px;
 }
 
 .ann-container{
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 20px;
+    margin-top: 20px;
+}
+
+.ann-container p{
+    font-size: 12px;
+    padding-top: 5px;
 }
 
 hr {
     border-top: 2px solid #bbb;
     border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cardcontainer{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    gap: 20px;
+    padding: 10px 20px 20px 0px;
+}
+
+.card{
+    display: grid;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+    border-left: #ffd000 solid 5px;
     margin-top: 10px;
-    margin-bottom: 10px;
-  }
+}
+
+.card p{
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.card .icons{
+    display: flex;
+    padding-top: 20px;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 10px;
+}
+
+.card img{
+    width: 25px;
+}
+
+.trending{
+    padding-top: 20px;
+}
+
+.accounts-sum{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.trending-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#mediumprofile{
+    height: 50px;
+}

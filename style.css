@@ -146,17 +146,18 @@ button {
     padding: 20px;
     border-radius: 20px;
     margin-top: 20px;
+    padding-bottom: 25px;;
 }
 
 .ann-container p{
-    font-size: 12px;
-    padding-top: 5px;
+    font-size: 18px;
+    padding-top: 10px;
 }
 
 hr {
     border-top: 2px solid #bbb;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 15px;
 }
 
@@ -177,8 +178,8 @@ hr {
 }
 
 .card p{
-    font-size: 15px;
-    padding-top: 5px;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .card .icons{
@@ -208,6 +209,7 @@ hr {
     display: flex;
     align-items: center;
     gap: 10px;
+    padding-top: 8px;
 }
 
 #mediumprofile{
